@@ -2,11 +2,182 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+    <title>Nerd's</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive">Базовый HTML и CSS</a>».</p>
-
+    <header class="main-header">
+      <div class="container">
+        <div class="main-menu-line"> 
+          <div class="logo">
+            <img src="#" alt="Nerd's">
+          </div> 
+          <nav class="main-menu">
+            <ul>
+              <li>
+                <a href="#">Студия</a>
+              </li>
+              <li>
+                <a href="#">Клиенты</a>
+              </li>
+              <li>
+                <a href="#">Магазин</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="user-block">
+            <a href="#" class="cart" >Корзина</a>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="one-slide">
+            <div class="slide-text">
+              <b class="slide-loud-text">Долго, дорого, скрупулезно.</b>
+              <p class="slide-normal-text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+              <a href="#" class="slide-button">Узнать больше</a>
+            </div>
+              <img src="#" class="slide-image" alt="Изображение-01">
+          </div>
+          <div class="one-slide">
+            <div class="slide-text">
+              <b class="slide-loud-text">Любите ли вы математику, как любим ее мы?</b>
+              <p class="slide-normal-text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать.</p>
+              <a href="#" class="slide-button">Узнать больше</a>
+            </div>
+              <img src="#" class="slide-image" alt="Изображение-02">
+          </div>
+          <div class="one-slide">
+            <div class="slide-text">
+              <b class="slide-loud-text">Только наркотики,только хардкор!</b>
+              <p class="slide-normal-text">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+              <a href="#" class="slide-button">Узнать больше</a>
+            </div>
+              <img src="#" class="slide-image" alt="Изображение-03">
+          </div>
+            <form class="slider-control">
+              <ul>
+                <li>
+                  <label>
+                    <input type="radio" name="selector" value="1">
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="selector" value="2">
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input type="radio" name="selector" value="3">
+                  </label>
+                </li>
+              </ul>
+            </form>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="type-of-service">
+        <ul>
+          <li>
+            <article class="service-item">
+              <h2 class="service-name">Веб-сайты</h2>
+              <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+              <a href="#" class="buy-btn">Заказать</a>
+            </article>
+          </li>
+          <li>
+            <article class="service-item">
+              <h2 class="service-name">Приложения</h2>
+              <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a href="#" class="buy-btn">Заказать</a>
+            </article>
+          </li>
+          <li>
+            <article class="service-item">
+              <h2 class="service-name">Презентации</h2>
+              <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+              <a href="#" class="buy-btn">Заказать</a>
+            </article>
+          </li>
+        </ul>
+      </div>
+      <div class="about-us">
+        <div class="column-left">
+          <h1 class="about-us-header">Мы маленькая, но гордая дизайн-студия из Краснодара.</h1>
+          <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>          
+          <h2 class="title-list">Выполняем заказы на разработку:</h2>
+          <ul class="about-us-list">
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </div>
+        <div class="column-right">
+          <div class="about-us-logo">
+            <img src="#" alt="Nerd's">
+          </div>
+          <h2 class="title-list">Как мы работаем:</h2>
+          <ul class="about-us-list">
+            <li>С самоотдачей 146%</li>
+            <li>Соблюдая сроки на 100%</li>
+            <li>По предоплате 50%</li>
+          </ul>
+        </div>
+      </div>
+      <div class="our-partners">
+        <ul>
+          <li>
+            <a href="#">
+              <img src="http://" alt="GLUKHANKO-logo">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="http://" alt="html-academy-logo">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="http://" alt="Barbershop-Borodinski">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="map">
+        <img src="#" alt="Карта">
+        <div class="container">
+          <div class="map-address">
+            <b>NЁRDS DESIGN STUDIO</b>
+            <p>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+             Телефон: +7 (812) 275-75-75</p>
+            <a href="#" class="btn">Напишите нам</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="footer-social">
+          <ul>
+            <li>
+              <a class="social-btn social-btn-vk" href="#"><span>Вконтакте</span></a>
+            </li>
+            <li>
+              <a class="social-btn social-btn-fb" href="#"><span>Фейсбук</span></a>
+            </li>
+            <li>
+              <a class="social-btn social-btn-inst" href="#"><span>Инстаграм</span></a>
+            </li>
+          </ul>
+          <div> 
+            <b>Давайте дружить, это выгодно!</b>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
