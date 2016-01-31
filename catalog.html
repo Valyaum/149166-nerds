@@ -8,8 +8,9 @@
     <header class="main-header">
       <div class="container">
         <div class="main-menu-line">
-            <a href="#">Nerd's</a>
-            <img src="#" alt="Nerd's">
+            <a href="#">Nerd's
+              <img src="#" alt="Nerd's">
+            </a>
           <nav class="main-menu">
             <ul>
               <li>
@@ -30,80 +31,86 @@
             <a href="#" class="cart" >Корзина</a>
           </div>
         </div>
-          <strong>Добро пожаловать в магазин <br>готовых макетов</strong>
+          <p>Добро пожаловать в магазин <br>готовых макетов</p>
       </div>
     </header>
     <main class="container">
       <div class="left-column">
-	    <form>
-          <div class="range-filter">
-            <h2 class="range-filter-title">Стоимость</h2>
-            <input type="range" min="0" max="15000">
-              <div class="price-controls">
-                от <input class="min-price" type="text" value="0">
-                до <input class="max-price" type="text" value="15 000">
+        <form>
+          <fieldset>
+              <legend>Стоимость</legend>
+              <div class="range-filter">
+              
               </div>
-          </div>
-          <h2>Сетка:</h2>
-          <ul>
-            <li>
-              <label>
-                <input type="radio" name="grid" value="1" checked>
+              <div class="price-controls">
+                <label>от <input class="min-price" type="text" value="0"></label>
+                <label>до <input class="max-price" type="text" value="15 000"></label>
+              </div>
+          </fieldset>
+          <fieldset>
+            <legend>Сетка:</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="grid" value="1" checked>
                   Адаптивная
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="radio" name="grid" value="2">
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="grid" value="2">
                   Фиксированная
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="radio" name="grid" value="3">
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="grid" value="3">
                   Резиновая
-              </label>
-            </li>
-          </ul>
-          <h2>Особенности:</h2>
-          <ul>
-            <li>
-              <label>
-                <input type="checkbox" checked>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+              <li>
+                <label>
+                  <input type="checkbox" checked>
                   Слайдер
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox">
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox">
                   Блок преимуществ
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox" checked>
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox" checked>
                   Новости
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox">
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox">
                   Галерея
-              </label>
-            </li>
-            <li>
-              <label>
-                <input type="checkbox">
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="checkbox">
                   Корзина
-              </label>
-            </li>
-          </ul>
-          <button class="left-column-btn" type="submit">Показать</button>
+                </label>
+              </li>
+            </ul>
+            <button class="left-column-btn" type="submit">Показать</button>
+          </fieldset>
         </form>
       </div>
       <div class="goods-column">
         <div class="goods-sort">
-          <h2>Сортировать:</h2>
+          <p>Сортировать:</p>
           <ul>
             <li>
               <a href="#">по цене</a>
@@ -125,7 +132,7 @@
               </li>
             </ul>  
           </div>
-		</div>
+        </div>
         <div class="goods">
           <ul>
             <li>
@@ -190,23 +197,23 @@
             </li>
           </ul>
         </div>
-      </div>
         <div class="page-btn">
-        <ul>
-          <li>
-            <p>1</p>"
-          </li>
-          <li>
-            <a href="#" class="btn">2</a>"
-          </li>
-          <li>
-            <a href="#" class="btn">3</a>"
-          </li>
-          <li>
-            <a href="#" class="btn">Следующая</a>"
-          </li>
-        </ul>
-      </div>
+          <ul>
+            <li>
+              <p>1</p>
+            </li>
+            <li>
+              <a href="#" class="btn">2</a>
+            </li>
+            <li>
+              <a href="#" class="btn">3</a>
+            </li>
+            <li>
+              <a href="#" class="btn">Следующая</a>
+            </li>
+          </ul>
+        </div>
+      </div> 
     </main>
     <footer class="main-footer">
       <div class="map">
