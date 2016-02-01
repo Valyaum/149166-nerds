@@ -3,19 +3,19 @@ body {
 	line-height:22px;
 	color:black;
 	font-weight:normal;
-	font-family:Roboto Medium;
+	font-family:Roboto,sans-serif;
 }
 h2 .service-name{
 	font-size:18px;
 	line-height:30px;
 	color:black;
 	font-weight:normal;
-	font-family:Roboto Medium;
+	font-family:Roboto,sans-serif;
 }
 h2  .title-list {
 	font-size:16px;
 	line-height:22px;
 	color:black;
 	font-weight:normal;
-	font-family:Roboto Medium;
+	font-family:Roboto,sans-serif;
 }
