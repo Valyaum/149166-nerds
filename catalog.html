@@ -3,15 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>Nerd's. Catalog</title>
+	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <div class="main-menu-line">
+      <div class="main-container-catalog">
+        <div class="main-menu-line"> 
+          <div class="logo">
             <a href="#">
               <img src="img/logo-header.png" alt="Nerd's">
             </a>
+          </div> 
           <nav class="main-menu">
             <ul>
               <li>
@@ -36,9 +39,10 @@
       </div>
     </header>
     <main class="container">
-      <div class="left-column">
+      <div class="catalog-content clearfix">
+	  <div class="selector-column">
         <form>
-          <fieldset>
+          <fieldset class="selector-price">
               <legend>Стоимость</legend>
               <div class="range-filter">
               
@@ -214,12 +218,13 @@
             </li>
           </ul>
         </div>
-      </div> 
+      </div>
+	  </div>
     </main>
     <footer class="main-footer">
       <div class="map">
         <img src="img/Map.png" alt="Карта">
-        <div class="container">	  
+        <div class="container">
           <div class="map-address">
             <b>NЁRDS DESIGN STUDIO</b>
             <p>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -228,7 +233,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container-social">
         <div class="footer-social">
           <ul>
             <li>
@@ -241,7 +246,7 @@
               <a class="social-btn social-btn-inst" href="#"><span>Инстаграм</span></a>
             </li>
           </ul>
-          <div>
+          <div class="social-slogan"> 
             <b>Давайте дружить, это выгодно!</b>
             <p>Скидка 10% для друзей из социальных сетей.</p>
           </div>
