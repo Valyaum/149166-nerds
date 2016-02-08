@@ -157,6 +157,10 @@ footer
 	margin:0 auto;
 	background: pink;
 }
+.map img {
+	display: block;
+	width: 100%; 
+	}
 .map .container{
 	width:880px;
 	padding:0 10px;
@@ -196,7 +200,6 @@ footer
    display: inline-block;
    vertical-align: top;
    text-align: right;
-	
 }
 /* ============================================================================
 CATALOG
@@ -219,7 +222,6 @@ CATALOG
 	width: 240px;
 	background: pink;
 }
-
 .goods-column {
     float: right;
 	width: 560px;
@@ -235,9 +237,20 @@ CATALOG
 .goods {
 	background: green;
 }
-.catalog-item {
+.goods ul{
+	margin:0;
+	padding:0;
+	font-size: 0;
+}
+.goods li{
 	display: inline-block;
     vertical-align: top;
+	padding-right: 80px;
+}
+.goods li:nth-child(2n) {
+	padding-right: 0;
+}
+.catalog-item {
 	width: 240px;
 	min-height: 270px;
 	background: yellow;
