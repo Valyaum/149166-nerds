@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Nerd's. Catalog</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
   </head>
@@ -11,11 +12,11 @@
       <div class="main-container-catalog">
         <div class="main-menu-line"> 
           <div class="logo">
-            <a href="#">
-              <img src="img/logo-header.png" alt="Nerd's">
+            <a href="index.html">
+              <img src="img/logo-header.png"  width="139" height="56" alt="Nerd's">
             </a>
           </div> 
-          <nav class="main-menu">
+          <nav class="main-navigation">
             <ul>
               <li>
                 <a href="#">Студия</a>
@@ -23,8 +24,8 @@
               <li>
                 <a href="#">Клиенты</a>
               </li>
-              <li>
-                <p>Магазин</p>
+              <li class="current">
+                <a href="#">Магазин</a>
               </li>
               <li>
                 <a href="#">Контакты</a>
@@ -32,24 +33,26 @@
             </ul>
           </nav>
           <div class="user-block">
-            <a href="#" class="cart" >Корзина</a>
+            <a href="#" class="cart" ><span class="icon-basket"></span>Корзина</a>
           </div>
         </div>
-          <p>Добро пожаловать в магазин <br>готовых макетов</p>
+          <p>Добро пожаловать в магазин готовых макетов</p>
       </div>
     </header>
     <main class="container">
       <div class="catalog-content clearfix">
-	  <div class="selector-column">
+	  <div class="left-column">
         <form>
-          <fieldset class="selector-price">
+          <fieldset class="range-filter">
               <legend>Стоимость</legend>
-              <div class="range-filter">
-              
-              </div>
+              <div class="range-controls">
+                <div class="scale"><div style="width:70%;" class="bar"></div></div>
+                <div class="toggle min-toggle"></div>
+				<div class="toggle max-toggle"></div>
+			  </div>
               <div class="price-controls">
-                <label>от <input class="min-price" type="text" value="0"></label>
-                <label>до <input class="max-price" type="text" value="15 000"></label>
+                от <input class="min-price" type="text" value="0">
+                до <input class="max-price" type="text" value="15 000">
               </div>
           </fieldset>
           <fieldset>
@@ -58,19 +61,19 @@
               <li>
                 <label>
                   <input type="radio" name="grid" value="1" checked>
-                  Адаптивная
+                  <span>Адаптивная</span>
                 </label>
               </li>
               <li>
                 <label>
                   <input type="radio" name="grid" value="2">
-                  Фиксированная
+                  <span>Фиксированная</span>
                 </label>
               </li>
               <li>
                 <label>
                   <input type="radio" name="grid" value="3">
-                  Резиновая
+                  <span>Резиновая</span>
                 </label>
               </li>
             </ul>
@@ -81,31 +84,31 @@
               <li>
                 <label>
                   <input type="checkbox" checked>
-                  Слайдер
+                  <span>Слайдер</span>
                 </label>
               </li>
               <li>
                 <label>
                   <input type="checkbox">
-                  Блок преимуществ
+                  <span>Блок преимуществ</span>
                 </label>
               </li>
               <li>
                 <label>
                   <input type="checkbox" checked>
-                  Новости
+                  <span>Новости</span>
                 </label>
               </li>
               <li>
                 <label>
                   <input type="checkbox">
-                  Галерея
+                  <span>Галерея</span>
                 </label>
               </li>
               <li>
                 <label>
                   <input type="checkbox">
-                  Корзина
+                  <span>Корзина</span>
                 </label>
               </li>
             </ul>
