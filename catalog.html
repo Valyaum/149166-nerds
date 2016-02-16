@@ -44,7 +44,7 @@
 	  <div class="left-column">
         <form>
           <fieldset class="range-filter">
-              <legend>Стоимость</legend>
+              <legend>Стоимость:</legend>
               <div class="range-controls">
                 <div class="scale"><div style="width:70%;" class="bar"></div></div>
                 <div class="toggle min-toggle"></div>
@@ -55,7 +55,7 @@
                 до <input class="max-price" type="text" value="15 000">
               </div>
           </fieldset>
-          <fieldset>
+          <fieldset class="grid">
             <legend>Сетка:</legend>
             <ul>
               <li>
@@ -78,7 +78,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="features">
             <legend>Особенности:</legend>
             <ul>
               <li>
@@ -118,7 +118,7 @@
       </div>
       <div class="goods-column">
         <div class="goods-sort">
-          <p>Сортировать:</p>
+          <b>Сортировать:</b>
           <ul>
             <li>
               <a href="#">по цене</a>
@@ -131,130 +131,134 @@
             </li>
           </ul>          
           <div class="sort-control">
-            <ul>
+			<a href="#" title="От меньшего к большему"><span class="icon-down-dir"></span></a>
+			<a href="#" title="От большего к меньшему"><span class="icon-up-dir"></span></a>
+            <!--<ul>
               <li>
-                <a href="#" title="От большего к меньшему"><span>От большего к меньшему</span></a>
+                <a href="#" title="От большего к меньшему"><span class="icon-up-dir"></span></a>
               </li>
               <li>
-                <a href="#" title="От меньшего к большему"><span>От меньшего к большему</span></a>
+                <a href="#" title="От меньшего к большему"><span class="icon-down-dir"></span></a>
               </li>
-            </ul>  
+            </ul> вариант 1 -->
           </div>
         </div>
         <div class="goods">
           <ul>
             <li>
               <div class="catalog-item">
-                <img src="img/Aviator.jpg" alt="Aviator">
+                <img src="img/Aviator.jpg" width="240" height="240" alt="Aviator">
                 <div class="more-info-goods">
-                  <a href="#">Aviator</a>
+                  <a href="#"><h2>Aviator</h2></a>
                   <p>Одностраничный макет с авторским дизайном</p>
-                  <p>8000 Р.</p>
+                  <p class="btn">8000 Р.</p>
                 </div>
               </div>
             </li>
             <li>
               <div class="catalog-item">
-                <img src="img/Sunset.jpg" alt="Sunset">
+                <img src="img/Sunset.jpg" width="240" height="240"  alt="Sunset">
                 <div class="more-info-goods">
-                  <a href="#">Sanset</a>
-                  <p>Интернет-магазин с личным кабинетом</p>
-                  <p>10000 Р.</p>
+                  <a href="#"><h2>Sanset</h2></a>
+                  <p>Интернет-магазин <br> с личным кабинетом</p>
+                  <p class="btn">10000 Р.</p>
                 </div>
               </div>
             </li>
             <li>
               <div class="catalog-item">
-                <img src="img/Forte.jpg" alt="Forte">
+                <img src="img/Forte.jpg" width="240" height="240"  alt="Forte">
                 <div class="more-info-goods">
-                  <a href="#">Forte</a>
-                  <p>Отличный макет для личного блога</p>
-                  <p>5000 Р.</p>
+                  <a href="#"><h2>Forte</h2></a>
+                  <p>Отличный макет <br> для личного блога</p>
+                  <p class="btn">5000 Р.</p>
                 </div>
               </div>
             </li>
             <li>
               <div class="catalog-item">
-                <img src="img/Modern-organik-Thai.jpg" alt="Modern organic Thai">
+                <img src="img/Modern-organik-Thai.jpg" width="240" height="240"  alt="Modern organic Thai">
                 <div class="more-info-goods">
-                  <a href="#">Modern organic Thai</a>
+                  <a href="#"><h2>Modern organic Thai</h2></a>
                   <p>Сайт для ресторана быстрого питания</p>
-                  <p>12000 Р.</p>
+                  <p class="btn">12000 Р.</p>
                 </div>
               </div>
             </li>
             <li>
               <div class="catalog-item">
-                <img src="img/Avenue.jpg" alt="Avenue">
+                <img src="img/Avenue.jpg" width="240" height="240"  alt="Avenue">
                 <div class="more-info-goods">
-                  <a href="#">Avenue</a>
-                  <p>Макет для блога  о путешествиях</p>
-                  <p>8000 Р.</p>
+                  <a href="#"><h2>Avenue</h2></a>
+                  <p>Макет для блога <br> о путешествиях</p>
+                  <p class="btn">8000 Р.</p>
                 </div>
               </div>
             </li>
             <li>
               <div class="catalog-item">
-                <img src="img/Dovetail.jpg" alt="Dovetail">
+                <img src="img/Dovetail.jpg" width="240" height="240"  alt="Dovetail">
                 <div class="more-info-goods">
-                  <a href="#">Dovetail</a>
-                  <p>Интернет-магазин с галереей товаров</p>
-                  <p>14000 Р.</p>
+                  <a href="#"><h2>Dovetail</h2></a>
+                  <p>Интернет-магазин <br> с галереей товаров</p>
+                  <p class="btn">14000 Р.</p>
                 </div>
               </div>
             </li>
           </ul>
         </div>
-        <div class="page-btn">
-          <ul>
-            <li>
-              <p>1</p>
-            </li>
-            <li>
-              <a href="#" class="btn">2</a>
-            </li>
-            <li>
-              <a href="#" class="btn">3</a>
-            </li>
-            <li>
-              <a href="#" class="btn">Следующая</a>
-            </li>
-          </ul>
+        <div class="paginator">
+          <a href="#" class="current">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#" class="next">Следующая</a>
         </div>
       </div>
 	  </div>
     </main>
     <footer class="main-footer">
       <div class="map">
-        <img src="img/Map.png" alt="Карта">
+        <img src="img/Map.png" width="2100" height="416"  alt="Карта">
         <div class="container">
           <div class="map-address">
             <b>NЁRDS DESIGN STUDIO</b>
-            <p>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-             Телефон: +7 (812) 275-75-75</p>
+            <p>Адрес: г. Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел: +7 (812) 275-75-75</p>
             <a href="#" class="btn">Напишите нам</a>
           </div>
         </div>
       </div>
       <div class="container-social">
         <div class="footer-social">
-          <ul>
-            <li>
-              <a class="social-btn social-btn-vk" href="#"><span>Вконтакте</span></a>
-            </li>
-            <li>
-              <a class="social-btn social-btn-fb" href="#"><span>Фейсбук</span></a>
-            </li>
-            <li>
-              <a class="social-btn social-btn-inst" href="#"><span>Инстаграм</span></a>
-            </li>
-          </ul>
-          <div class="social-slogan"> 
+          <a class="social-btn" href="#">В контакте<span class="icon-vk"></span></a>
+          <a class="social-btn" href="#">Фейсбук<span class="icon-facebook"></span></a>
+          <a class="social-btn" href="#">Инстаграм<span class="icon-instagramm"></span></a>
+		</div>
+        <div class="social-slogan"> 
             <b>Давайте дружить, это выгодно!</b>
             <p>Скидка 10% для друзей из социальных сетей.</p>
-          </div>
         </div>
       </div>
     </footer>
+	<div class="modal-content">
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="login">
+		  <label for="user"><p>Ваше имя:</p></label>
+		  <input id="user" type="text" name="login" placeholder="Представьтесь,пожалуйста">
+		</div>
+		<div class="e-mail">
+          <label for="e-mail"><p>Ваш e-mail:</p></label>
+		  <input id="e-mail" type="text"  name="e-mail" placeholder="Для отправки отчета">
+		</div>
+		<label>
+		<p>Текст письма:</p>
+		<textarea name="letter" rows="7">В свободной форме</textarea>
+		</label>
+
+        <button class="btn btn-send" type="submit">Отправить</button>
+      </form>
+	</div>
+	<div class="modal-overlay"></div>
   </body>
 </html>
