@@ -77,7 +77,6 @@ main-header
   width: 880px;
   margin: 0 auto;
   padding: 0 10px;
-
 }
 
 .logo {
@@ -239,25 +238,6 @@ INDEX
   font-size: 36px;
   line-height: 37px;
   font-weight: 400;
-}
-
-.slide-text .name-slide-1 {
-  letter-spacing: -0.1px;
-}
-
-.slide-text .name-slide-2 {
-  letter-spacing: 0;
-  word-spacing: 0;
-}
-
-.slide-text .name-slide-2 {
-  letter-spacing: 0;
-  word-spacing: 0;
-}
-
-.slide-text .name-slide-2 {
-  letter-spacing: 0;
-  word-spacing: 0;
 }
 
 .slide-button {
