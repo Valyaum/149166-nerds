@@ -54,8 +54,8 @@ body {
   font-family: "Roboto", "Tahoma", sans-serif;
 
   color: black;
-/*    background: white url(../img/nerds-index-1.jpg) no-repeat 351px 0;
-background: white url(../img/nerds-catalog.jpg) no-repeat 351px 0;  */
+/*    background: white url("../img/nerds-index-1.jpg") no-repeat 351px 0;
+background: white url("../img/nerds-catalog.jpg") no-repeat 351px 0;  */
 }
 
 .clearfix::after {
@@ -170,7 +170,6 @@ main-header
   vertical-align: top;
 
   color: black;
-/* background: blue;*/
 }
 
 .cart span {
@@ -232,7 +231,6 @@ INDEX
 .slide-text {
   width: 480px;
   padding: 28px 0;
-  /* height: 198px; */
 }
 
 .slide-text b {
@@ -347,10 +345,6 @@ INDEX
 /* ============================================================================
 Index main-content
  ============================================================================ */
-
-.container {
-  /* background: magenta;*/
-}
 
 .type-of-service {
   width: 880px;
@@ -1020,7 +1014,7 @@ border-right-color: transparent;
   width:240px;
   height:270px;
 
-  background: url(../img/3dots.png);
+  background: url("../img/3dots.png");
   background-repeat: no-repeat;
   background-position: 10px 10px;
   background-color: #f1f1f1;
