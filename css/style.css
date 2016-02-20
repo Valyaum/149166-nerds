@@ -1069,7 +1069,9 @@ border-right-color: transparent;
 }
 
 .more-info-goods h2 {
-  margin-top:37px;
+  margin-top: 37px;
+  padding-left: 5px;
+  padding-right: 5px;
 
   font-size: 18px;
   line-height: 18px;
@@ -1080,7 +1082,8 @@ border-right-color: transparent;
 }
 
 .more-info-goods p {
-  margin: 20px 21px;
+  margin-left: 21px;
+  margin-right: 21px;
 
   font-size: 14px;
   line-height: 18px;
@@ -1090,9 +1093,16 @@ border-right-color: transparent;
   color: black;
 }
 
- .more-info-goods .btn {/* нужно выровнять отступ кнопки снизу у Modern Organic THAI */
+.more-info-goods .difference-title {
+  margin-bottom: -7px;
+}
+
+.more-info-goods .difference {
+  margin-bottom: -11px;
+}
+
+.more-info-goods .btn {
   width: 140px;
-  margin-top: none;
   margin-left: 30px;
   margin-bottom: 30px;
 
@@ -1181,7 +1191,6 @@ border-right-color: transparent;
 .map {
   position: relative;
 
-  height: 417px;
   margin:0 auto;
 
   background: #e9e5dc;
@@ -1199,7 +1208,6 @@ border-right-color: transparent;
   position: relative;
 
   width: 880px;
-  min-height: 300px;
   margin:0 auto;
 }
 
@@ -1328,7 +1336,7 @@ border-right-color: transparent;
  ============================================================================ */
 
 .modal-content {
-  display: none;/*  отключено */
+  display: none;
 
   position: fixed;
   top: 276px;
@@ -1344,6 +1352,9 @@ border-right-color: transparent;
   color: #000000;
   background: white;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
+}
+.modal-content-show {
+  display: block;
 }
 
 /* кнопка ЗАКРЫТЬ */
@@ -1374,7 +1385,7 @@ border-right-color: transparent;
 
   position: absolute;
   top: 18px;
-  right: 6px;
+  right: 7px;
 
   width: 25px;
   height: 5px;

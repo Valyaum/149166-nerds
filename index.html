@@ -157,5 +157,41 @@
         </div>
       </div>
     </footer>
+    <div class="modal-content">
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="login">
+          <label for="user">Ваше имя:</label>
+          <input type="text" id="user" name="login" placeholder="Представьтесь,пожалуйста">
+        </div>
+        <div class="e-mail">
+          <label for="e-mail">Ваш e-mail:</label>
+          <input type="text" id="e-mail" name="e-mail" placeholder="Для отправки отчета">
+        </div>
+        <label>
+           <p>Текст письма:</p>
+           <textarea name="letter" rows="7">В свободной форме</textarea>
+        </label>
+        <button class="btn btn-send" type="submit">Отправить</button>
+      </form>
+    </div>
+    <div class="modal-overlay"></div>
+    <script>
+      var link = document.querySelector(".map-address .btn");
+      var popup = document.querySelector(".modal-content");
+      var close = document.querySelector(".modal-content-close");
+      var login = popup.querySelector("[name=login]");
+
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.add("modal-content-show");
+        login.focus();
+      });
+
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("modal-content-show");
+      });
+    </script>
   </body>
 </html>

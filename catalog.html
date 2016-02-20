@@ -173,8 +173,8 @@
                 <div class="catalog-item">
                   <img src="img/Modern-organik-Thai.jpg" alt="Modern organic Thai" width="240" height="240">
                   <div class="more-info-goods">
-                    <a href="#"><h2>Modern organic Thai</h2></a>
-                    <p>Сайт для ресторана быстрого питания</p>
+                    <a href="#"><h2 class="difference-title">Modern organic Thai</h2></a>
+                    <p class="difference">Сайт для ресторана быстрого питания</p>
                     <a class="btn" href="#">12000 Р.</a>
                   </div>
                 </div>
@@ -253,5 +253,22 @@
       </form>
     </div>
     <div class="modal-overlay"></div>
+    <script>
+      var link = document.querySelector(".map-address .btn");
+      var popup = document.querySelector(".modal-content");
+      var close = document.querySelector(".modal-content-close");
+      var login = popup.querySelector("[name=login]");
+
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.add("modal-content-show");
+        login.focus();
+      });
+
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("modal-content-show");
+      });
+    </script>
   </body>
 </html>
