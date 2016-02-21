@@ -54,8 +54,8 @@ body {
   font-family: "Roboto", "Tahoma", sans-serif;
 
   color: black;
-/*    background: white url("../img/nerds-index-1.jpg") no-repeat 351px 0;
-background: white url("../img/nerds-catalog.jpg") no-repeat 351px 0;  */
+/*  background: white url("../img/nerds-index-1.jpg") no-repeat 351px 0;
+background: white url("../img/nerds-catalog.jpg") no-repeat 33px 0;  */
 }
 
 .clearfix::after {
@@ -746,7 +746,7 @@ main content
 
  /* Списки с чекбоксами */
  
-.left-column legend {
+ .left-column legend {
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
@@ -796,6 +796,159 @@ fieldset {
 .left-column label span {
   margin-left: 18px;
 }
+
+.checkbox-name {
+  padding-left: 17px;
+}
+
+.radio-name {
+  padding-left: 17px;
+}
+
+.login-checkbox input[type="checkbox"] {
+  display:none;
+}
+
+.login-radio input[type="radio"] {
+  display:none;
+}
+
+.login-radio {
+  position: relative;
+  padding-left: 32px
+  cursor: pointer;
+}
+
+.login-checkbox {
+  position: relative;
+  padding-left: 32px
+  cursor: pointer;
+}
+
+.login-radio input[type="radio"] +
+.radio-indikator {
+  position: absolute;
+  top: 0px;
+  left: -18px;
+
+  width: 17px;
+  height: 17px;
+
+  border: 3px solid #c1c1c1;
+  border-radius: 50%;
+}
+
+.login-radio input[type="radio"]:checked + 
+  .radio-indikator::before {
+  content: "";
+
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  width: 7px;
+  height: 7px;
+
+  background-color: #c1c1c1;
+  border-radius: 50%;
+}
+
+.login-checkbox input[type="checkbox"] + 
+.checkbox-indikator {
+  position: absolute;
+  top: 0px;
+  left: -18px;
+
+  width: 19px;
+  height: 19px;
+
+  border: 2px solid #c1c1c1;
+  border-radius: 4px;
+}
+
+.login-checkbox input[type="checkbox"]:checked + 
+  .checkbox-indikator::after {
+  content: "";
+
+  position: absolute;
+  top: 5px;
+  left: 5px;
+
+  width: 5px;
+  height: 12px;
+
+  background-color: #c1c1c1;
+
+  transform:rotate(-45deg);
+}
+
+.login-checkbox input[type="checkbox"]:checked + 
+  .checkbox-indikator::before{
+  content: "";
+
+  position: absolute;
+  top: -2px;
+  left: 14px;
+
+  width: 5px;
+  height: 17px;
+  
+  background-color: #c1c1c1;
+  box-shadow: 0 0 1px 2px white;
+
+  transform:rotate(45deg);
+}
+
+ /*.left-column legend {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+fieldset {
+  margin:0;
+  padding:0;
+
+  border: none;
+}
+
+.grid legend {
+  padding-top: 45px;
+  padding-bottom: 15px;
+}
+
+.features legend {
+  padding-top: 23px;
+  padding-bottom: 14px;
+}
+
+.left-column ul {
+  margin:0;
+  padding:0;
+
+  font-size:0;
+}
+
+.left-column li {
+  display: inline-block;
+
+  padding-right: 45px;
+
+  vertical-align: top;
+}
+
+.left-column label {
+  float: left;
+  padding-bottom: 21px;
+
+  font-size:15px;
+  line-height: 20px;
+  font-weight:400;
+}
+
+.left-column label span {
+  margin-left: 18px;
+}*/
 
 .left-column-btn {
   display: block;
