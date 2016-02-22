@@ -143,14 +143,14 @@
             <p>тел: +7 (812) 275-75-75</p>
             <a class="btn" href="#">Напишите нам</a>
           </div>
-	    </div>
+        </div>
       </div>
       <div class="container-social">
         <div class="footer-social">
           <a class="social-btn" href="#">В контакте<span class="icon-vk"></span></a>
           <a class="social-btn" href="#">Фейсбук<span class="icon-facebook"></span></a>
           <a class="social-btn" href="#">Инстаграм<span class="icon-instagramm"></span></a>
-		</div>
+        </div>
         <div class="social-slogan"> 
             <b>Давайте дружить, это выгодно!</b>
             <p>Скидка 10% для друзей из социальных сетей.</p>
@@ -169,29 +169,13 @@
           <input type="text" id="e-mail" name="e-mail" placeholder="Для отправки отчета">
         </div>
         <label>
-           <p>Текст письма:</p>
+           Текст письма:
            <textarea name="letter" rows="7">В свободной форме</textarea>
         </label>
         <button class="btn btn-send" type="submit">Отправить</button>
       </form>
     </div>
     <div class="modal-overlay"></div>
-    <script>
-      var link = document.querySelector(".map-address .btn");
-      var popup = document.querySelector(".modal-content");
-      var close = document.querySelector(".modal-content-close");
-      var login = popup.querySelector("[name=login]");
-
-      link.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.add("modal-content-show");
-        login.focus();
-      });
-
-      close.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.remove("modal-content-show");
-      });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>

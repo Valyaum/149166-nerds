@@ -122,65 +122,6 @@
                 </ul>
                 <button class="left-column-btn" type="submit">Показать</button> 
             </fieldset>
-            <!-- <fieldset class="grid">
-              <legend>Сетка:</legend>
-                <ul>
-                  <li>
-                    <label>
-                      <input type="radio" name="grid" value="1" checked>
-                      <span>Адаптивная</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label>
-                      <input type="radio" name="grid" value="2">
-                      <span>Фиксированная</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label>
-                      <input type="radio" name="grid" value="3">
-                      <span>Резиновая</span>
-                    </label>
-                  </li>
-                </ul>
-            </fieldset>
-            <fieldset class="features">
-              <legend>Особенности:</legend>
-                <ul>
-                  <li>
-                    <label>
-                      <input type="checkbox" checked>
-                      <span>Слайдер</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label>
-                      <input type="checkbox">
-                      <span>Блок преимуществ</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label>
-                      <input type="checkbox" checked>
-                      <span>Новости</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label>
-                      <input type="checkbox">
-                      <span>Галерея</span>
-                    </label>
-                  </li>
-                  <li>
-                    <label>
-                      <input type="checkbox">
-                      <span>Корзина</span>
-                    </label>
-                  </li>
-                </ul>
-                <button class="left-column-btn" type="submit">Показать</button> 
-            </fieldset>-->
           </form>
         </div>
         <div class="goods-column">
@@ -313,29 +254,13 @@
           <input type="text" id="e-mail" name="e-mail" placeholder="Для отправки отчета">
         </div>
         <label>
-           <p>Текст письма:</p>
+           Текст письма:
            <textarea name="letter" rows="7">В свободной форме</textarea>
         </label>
         <button class="btn btn-send" type="submit">Отправить</button>
       </form>
     </div>
     <div class="modal-overlay"></div>
-    <script>
-      var link = document.querySelector(".map-address .btn");
-      var popup = document.querySelector(".modal-content");
-      var close = document.querySelector(".modal-content-close");
-      var login = popup.querySelector("[name=login]");
-
-      link.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.add("modal-content-show");
-        login.focus();
-      });
-
-      close.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.remove("modal-content-show");
-      });
-    </script>
+    <script src="js/script.js"></script>
   </body>
 </html>
