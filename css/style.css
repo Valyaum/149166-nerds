@@ -54,8 +54,6 @@ body {
   font-family: "Roboto", "Tahoma", sans-serif;
 
   color: #000000;
-/*background: #ffffff url("../img/nerds-index.jpg") no-repeat 31px 0;
-  background: #ffffff url("../img/nerds-catalog.jpg") no-repeat 31px 0;*/
 }
 
 .clearfix::after {
@@ -107,7 +105,7 @@ main-header
 
   font-size: 14px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: 500;
   vertical-align: top;
 
   color: #000000;
@@ -165,7 +163,7 @@ main-header
 
   font-size: 14px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   vertical-align: top;
   text-decoration: none;
@@ -230,23 +228,24 @@ INDEX
 
 .slide-text {
   width: 480px;
-  padding: 28px 0;
 }
 
-.slide-text b {
-  display: block;
+.slide-text .slide-header {
+  margin-top: 29px;
 
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: 500;
   
   color: #000000;
 }
 
-.slide-text p {
+.slide-text .slide-text-content {
+  margin-top: -19px;
+
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   
   color: #283136;
 }
@@ -259,7 +258,7 @@ INDEX
 
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
@@ -381,7 +380,7 @@ Index main-content
 
   font-size: 18px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 
   color: #000000;
@@ -390,7 +389,7 @@ Index main-content
 .service p {
   font-size: 15px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
 
   color: #283136;
 }
@@ -421,7 +420,7 @@ Index main-content
 
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
@@ -495,7 +494,7 @@ Index main-content
 
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
   vertical-align: top;
 
@@ -523,22 +522,26 @@ Index main-content
   float: left;
   width: 575px;
   margin-bottom: 59px;
-  padding-top: 69px;
+  padding-top: 32px;
 }
 
-.column-left b {
+.column-left .about-us-header {
+  margin-bottom: 37px;
+
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
 
   color: #000000;
 }
 
-.column-left p {
+.column-left .about-us-text {
+  margin-top: -19px;
+
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
 
   color: #283136;
@@ -549,7 +552,7 @@ Index main-content
 
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
   text-transform: uppercase;
 
@@ -573,7 +576,7 @@ Index main-content
 
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
   text-transform: uppercase;
 
@@ -644,7 +647,7 @@ CATALOG
 
   font-size: 40px;
   line-height: 48px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
 
@@ -683,7 +686,7 @@ main content
 
   font-size: 18px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 
   color: #000000;
@@ -742,7 +745,7 @@ main content
 
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
   text-align: center;
   text-transform: uppercase;
@@ -760,7 +763,7 @@ main content
 .price-controls {
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 
   color: #283136;
@@ -773,7 +776,7 @@ main content
  .left-column legend {
   font-size: 18px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 
   color: #000000;
@@ -817,7 +820,7 @@ fieldset {
 
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 500;
 
   color: #283136;
 }
@@ -983,13 +986,14 @@ fieldset {
   margin-right: 2px;
 }
 
-.menu-sort b {
+.menu-sort p {
   float: left;
+  margin-top: 0;
   margin-right: 38px;
 
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 
   color: #000000;
@@ -1012,7 +1016,7 @@ fieldset {
 .menu-sort a {
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -1024,7 +1028,7 @@ fieldset {
 .menu-sort .current {  /* активное состояние пункта меню */
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
 
   color: #000000;
   border-bottom: none;
@@ -1178,7 +1182,7 @@ fieldset {
 
   font-size: 18px;
   line-height: 8,56px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
 
@@ -1191,7 +1195,7 @@ fieldset {
 
   font-size: 14px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
 
   color: #283136;
@@ -1212,7 +1216,7 @@ fieldset {
 
   font-size: 18px;
   line-height: 8.56px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
 
@@ -1248,7 +1252,7 @@ fieldset {
 
   font-size: 12px;
   line-height: 38px;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   text-align: center;
   vertical-align: top;
@@ -1317,17 +1321,17 @@ fieldset {
 
   width: 250px;
   min-height: 225px;
-  padding-top: 15px;
+  padding-top: 5px;
 
   background: #ffffff;
 }
 
-.map-address b {
+.map-address .name {
   margin-left: 21px;
-
+  
   font-size: 16px;
   line-height: 30px;
-  font-weight: 500; /* в ФШ не указан */
+  font-weight: 500;
   text-transform: uppercase;
 
   color: #000000;
@@ -1338,7 +1342,7 @@ fieldset {
 
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
+  font-weight: 500;
 
   color: #666666;
 }
@@ -1421,20 +1425,23 @@ fieldset {
   margin-left: 44px;
 }
 
-.social-slogan b {
+.social-slogan .slogan {
+  margin-top: -2px;
+
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: 500;
 
   color: #000000;
 }
 
-.social-slogan p {
-  margin-top: 6px;
+.social-slogan .discount {
+  margin-top: -26px;
+
 
   font-size: 16px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
 
   color: #283136;
 }
@@ -1523,7 +1530,7 @@ fieldset {
 
   font-size: 16px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
 
   color: #000000;
@@ -1537,7 +1544,7 @@ fieldset {
 
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
   text-transform: uppercase;
 
@@ -1575,7 +1582,7 @@ fieldset {
 
   font-size: 12px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Roboto", "Tahoma", sans-serif;
   text-transform: uppercase;
 
