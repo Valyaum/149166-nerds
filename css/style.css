@@ -758,10 +758,14 @@ fieldset {
 }
 
 .checkbox-name {
+  display: block;
+
   padding-left: 17px;
 }
 
 .radio-name {
+  display: block;
+
   padding-left: 17px;
 }
 
